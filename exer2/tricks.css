@@ -1,0 +1,58 @@
+div#flex-container,div.sub-container{
+  display: flex;
+}
+
+div#flex-container{
+  flex-direction: row;
+
+}
+
+div.sub-container{
+  width: 25%;
+  border: 1px solid black;
+}
+div#column-container{
+
+  flex-direction: column;
+}
+
+div#c-reverse-container{
+
+  flex-direction: column-reverse;;
+}
+
+div#c-r-container{
+  flex-direction: row;
+}
+div#c-r-r-container{
+  flex-direction: row-reverse;
+}
+
+/*Pseudo-classes*/
+ol#pseudolist li:first-child{
+  color: red;
+}
+ol#pseudolist li:last-child{
+  color: blue;
+}
+ol#pseudolist li:nth-child(2n){
+  /*even children*/
+  background: hsla(75, 100%, 79%, 1)
+}
+ol#pseudolist li:nth-child(2n+1){
+  /*even children*/
+  background: hsla(75, 100%, 45%, 1)
+}
+
+/*Pseudo-elements*/
+ol#pseudolist li::before{
+  content:'<';
+  margin-right: 10px;
+  border: 1px solid;
+}
+
+ol#pseudolist li::after{
+  content:'>';
+  margin-left: 10px;
+  border: 1px solid;
+}
