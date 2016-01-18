@@ -1,0 +1,42 @@
+body{
+	margin: 1em;
+	background: hsla(246, 100%, 20%, 1);
+	font-size: 1.5em;
+}
+
+body > h1{
+	background: white;
+	text-align: center;
+
+}
+
+ul#menu{
+	list-style:none;
+	padding:0;
+	margin:0 auto;
+	text-align: center;
+
+}
+ul#menu li{
+	display: inline-block;
+	border: solid;
+  border-width: 1px 1px 0 1px;
+  margin: 10px 20px 0 20px;
+	background: grey;
+	padding: 5px 10px 5px 10px;
+}
+
+
+ul#menu li.current{
+	background: white;
+}
+
+
+#main{
+	background: white;
+	border: 1px solid transparent;
+	padding: 10px;
+}
+#main h2{
+	margin: 0;
+}
