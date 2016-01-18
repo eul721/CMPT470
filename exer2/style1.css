@@ -40,3 +40,7 @@ ul#menu li.current{
 #main h2{
 	margin: 0;
 }
+
+abbr{
+  text-decoration: underline;
+}
