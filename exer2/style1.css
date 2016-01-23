@@ -22,8 +22,12 @@ ul#menu li{
 	border: solid;
   border-width: 1px 1px 0 1px;
   margin: 10px 20px 0 20px;
-	background: grey;
 	padding: 5px 10px 5px 10px;
+	background: grey;
+
+}
+ul#menu a{
+	color: black;
 }
 
 
@@ -43,4 +47,7 @@ ul#menu li.current{
 
 abbr{
   text-decoration: underline;
+
+	/* Only on firefox */
+	text-decoration-style: dotted;
 }
