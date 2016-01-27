@@ -1,0 +1,31 @@
+# Telnet HTTP Conversations
+
+Status Code: 200 OK
+
+## If-modified-since
+
+Status Code: 304 Not Modified
+
+There are fewer response headers in this second request. Whereas the original
+request contained information about the content (via Content-Style-Type &
+Content-Type & Content-Language), this new response contains none of that. Both
+responses have Cache-Control, ETag, Connection, Content-Location, and Expires
+headers.
+
+## Redirect
+
+Status Code: 301 Moved Permanently
+
+This response also has fewer headers than the first. It includes a Location header
+that indicates where the new page is. This response also has a different Content-Type
+and Content-Length.
+
+#Command-Line Requests
+
+Including the `-I` option to `curl` fetches the headers ONLY.
+
+#Developer Tools
+
+"I promised I played with the developer tools". :)
+
+#Git Intro
