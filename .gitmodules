@@ -1,0 +1,3 @@
+[submodule "exer3/exercise-3"]
+	path = exer3/exercise-3
+	url = git@csil-git1.cs.surrey.sfu.ca:chaojiac/exercise-3.git
