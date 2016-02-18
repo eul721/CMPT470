@@ -1,0 +1,5 @@
+1. XSS Attack: Happens in the "Notes:" input box of New/Edit person. Typing <html><script>alert('xss')</script></html> and submit will immediately call the 
+alert on submission. This is potentially dangerous because these unescaped code of HTML will be stored on the server, and may disrupt other users who are browsing
+the same content.
+
+2a. Permissions Violation: A user can view any user's contact list by visiting URI /security/friends/<target user>/
