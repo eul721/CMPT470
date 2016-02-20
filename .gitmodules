@@ -1,3 +1,6 @@
 [submodule "exer3/exercise-3"]
 	path = exer3/exercise-3
 	url = git@csil-git1.cs.surrey.sfu.ca:chaojiac/exercise-3.git
+[submodule "exer4/exercise-4"]
+	path = exer4/exercise-4
+	url = git@csil-git1.cs.surrey.sfu.ca:chaojiac/exercise4.git
